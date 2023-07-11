@@ -1,4 +1,4 @@
-name: External Publish
+name: Lapack Publish
 defaults:
   run:
     shell: bash -ileo pipefail {0}
