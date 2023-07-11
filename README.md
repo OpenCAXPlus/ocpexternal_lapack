@@ -1,8 +1,6 @@
-# OpenCAX+ External Template
+# OpenCAX+ External: Lapack
 
-This is a template repository for external dependencies of the OpenCAX+ projects.
-
-External dependencies are used for both toolkits or starters of the OpenCAX+ SDK.
+The Lapack/Blas repository can be found [here](https://github.com/Reference-LAPACK/lapack)
 
 ## Learn how to create the external project for OpenCAX+
 
@@ -10,19 +8,19 @@ Read our tutorial or watch the tutorial video (both coming soon).
 
 ## Things that you need to modify
 
-- [ ] This README.md file, also remember to add the workflow badge
-- [ ] The workflow yml files, change the name of workflow
-- [ ] The ocp.yml file
-- [ ] scripts/prepare.sh
-- [ ] scripts/install.sh
-- [ ] Create any new configurations build and install script in the config folder
+- [x] This README.md file, also remember to add the workflow badge
+- [x] The workflow yml files, change the name of workflow
+- [x] The ocp.yml file
+- [x] scripts/prepare.sh
+- [x] scripts/install.sh
+- [x] Create any new configurations build and install script in the config folder
 
 ## Things you need to check before publish the external project
 
-- [ ] run the prepare.sh script locally, is the external project's source code resides in ocp/external/external_id/version/source?
-- [ ] does the ocp/external/external_id/version folder also contains a ocp.yml file and any build configuration folders that you want?
-- [ ] run the ocp/external/external_id/version/config/$config.sh script locally, is the build cache files put into ocp/external/external_id/version/build/$config folder, and the install files put into ocp/external/external_id/version/install/$config folder?
-- [ ] run the External Build workflow
+- [x] run the prepare.sh script locally, is the external project's source code resides in ocp/external/external_id/version/source?
+- [x] does the ocp/external/external_id/version folder also contains a ocp.yml file and any build configuration folders that you want?
+- [x] run the ocp/external/external_id/version/config/$config.sh script locally, is the build cache files put into ocp/external/external_id/version/build/$config folder, and the install files put into ocp/external/external_id/version/install/$config folder?
+- [x] run the External Build workflow
 
 ## Some rules
 ### For external projects
