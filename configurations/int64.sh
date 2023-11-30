@@ -9,5 +9,5 @@ source_dir="$script_dir/../source"
 build_dir="$script_dir/../build/$OCP_COMPILER/$config"
 install_dir="$script_dir/../install/$OCP_COMPILER/$config"
 
-CC=$OCP_CC CXX=$OCP_CXX FC=$OCP_FC cmake -S $source_dir -B $build_dir -GNinja -DCMAKE_INSTALL_PREFIX=$install_dir -DCBLAS=ON -DLAPACKE=ON 
+CC=$OCP_CC CXX=$OCP_CXX FC=$OCP_FC cmake -S $source_dir -B $build_dir -GNinja -DCMAKE_INSTALL_PREFIX=$install_dir -DBUILD_INDEX64=ON -DCBLAS=ON -DLAPACKE=ON 
 cmake --build $build_dir --target install

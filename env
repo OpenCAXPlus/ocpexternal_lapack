@@ -1,0 +1,4 @@
+export OCP_CC=icx
+export OCP_CXX=icpx
+export OCP_FC=ifort
+export OCP_COMPILER=intel
